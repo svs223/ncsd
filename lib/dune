@@ -1,0 +1,6 @@
+(library
+ (public_name libncs)
+ (name ncs)
+ (libraries logs logs.fmt logs.lwt lwt lwt.unix yojson ppx_yojson_conv_lib)
+ (preprocess
+  (pps lwt_ppx ppx_yojson_conv)))

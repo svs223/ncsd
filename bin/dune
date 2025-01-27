@@ -1,0 +1,6 @@
+(executable
+ (public_name ncsd)
+ (name main)
+ (package ncsd)
+ (libraries libncs lwt)
+ (preprocess (pps lwt_ppx)))
