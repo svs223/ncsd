@@ -1,6 +1,6 @@
 (library
  (public_name libncs)
  (name ncs)
- (libraries logs logs.fmt logs.lwt lwt lwt.unix yojson ppx_yojson_conv_lib)
+ (libraries logs logs.fmt logs.lwt fmt fmt.tty lwt lwt.unix yojson ppx_yojson_conv_lib otoml)
  (preprocess
   (pps lwt_ppx ppx_yojson_conv)))

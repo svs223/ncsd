@@ -26,6 +26,6 @@
 (package 
   (name libncs)
   (synopsis "")
-  (depends ocaml unix lwt logs lwt_ppx yojson ppx_yojson_conv))
+  (depends ocaml unix lwt logs lwt_ppx yojson ppx_yojson_conv fmt otoml))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
